@@ -1,39 +1,21 @@
-# vue-settings
+# **Settings App (Vue 3 + TypeScript)**
 
-This template should help get you started developing with Vue 3 in Vite.
+## **Overview**
+This is a basic Settings application built with Vue 3 and TypeScript. It demonstrates key Vue features like dynamic component rendering, teleport, keep-alive, and transitions while managing shared state and local storage.
 
-## Recommended IDE Setup
+## **Features**
+- ✅ **TypeScript Integration**: Strongly typed components and state.
+- ✅ **Dynamic Component Rendering**: Switch settings panels dynamically.
+- ✅ **Teleport**: Move UI elements outside their default DOM hierarchy.
+- ✅ **Keep-Alive**: Preserve component state across navigation.
+- ✅ **Vue Transitions**: Smooth animations between settings views.
+- ✅ **Shared State Composables**: Centralized logic for state management.
+- ✅ **Local Storage Support**: Save and retrieve user settings.
+- ✅ **Notification System**: Toast-based notifications for user feedback.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## **Tech Stack**
+- **Frontend:** Vue 3, TypeScript
+- **Styling:** Tailwind CSS
+- **State Management & Persistence:** Local Storage, Vue Composables
+- **UI Components:** Nuxt UI
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
